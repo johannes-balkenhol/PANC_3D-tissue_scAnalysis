@@ -1,0 +1,31 @@
+# data & large objects -- distributed via ArrayExpress, not git
+*.h5ad
+*.h5
+*.loom
+*.mtx
+*.fastq
+*.fastq.gz
+data/
+raw_data/
+processed_data/
+
+# notebook noise
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# outputs
+figures_submission/
+*.pdf
+!docs/*.pdf
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

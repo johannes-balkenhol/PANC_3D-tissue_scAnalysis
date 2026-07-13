@@ -1,0 +1,33 @@
+# Conda environment for PANC_3D-tissue_scAnalysis
+#
+# Regenerate exact pins from the working environment with:
+#   conda env export --no-builds > envs/environment.yml
+#
+name: panc3d
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyterlab
+  - python-igraph
+  - leidenalg
+  - h5py
+  - pip
+  - pip:
+      - scanpy
+      - anndata
+      - scFates
+      - palantir
+      - phate
+      - scrublet
+      - gseapy
+      - omnipath
+      - mygene
+      - networkx

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: PANC_3D-tissue_scAnalysis
+message: >-
+  If you use this software, please cite both the software and the
+  associated manuscript.
+type: software
+authors:
+  - given-names: Johannes
+    family-names: Balkenhol
+    email: johannes.balkenhol@uni-wuerzburg.de
+    affiliation: University of Würzburg, Biozentrum, Dept. of Bioinformatics
+  - given-names: Maryam
+    family-names: Almasi
+    affiliation: University of Würzburg
+  - given-names: Gudrun
+    family-names: Dandekar
+    affiliation: University of Würzburg
+  - given-names: Thomas
+    family-names: Dandekar
+    affiliation: University of Würzburg
+repository-code: >-
+  https://github.com/johannes-balkenhol/PANC_3D-tissue_scAnalysis
+abstract: >-
+  Single-cell RNA-seq analysis pipeline for a 3D PANC-1 pancreatic tumour
+  tissue model: QC, clustering, pseudotime trajectories, trajectory-coupled
+  dynamic PPI network topology, identification of the CDK1-CDKN1A-WEE1
+  chemoresistance bottleneck, and validation in a PDAC patient atlas.
+keywords:
+  - single-cell RNA-seq
+  - pancreatic ductal adenocarcinoma
+  - 3D tissue model
+  - gemcitabine resistance
+  - network topology
+  - pseudotime
+license: MIT
