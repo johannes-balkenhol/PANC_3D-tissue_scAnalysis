@@ -56,7 +56,6 @@ Notebooks are numbered in **execution order**. Each stage consumes the output of
 | **Interactome** | [OmniPath](https://omnipathdb.org/) | Directed, signed PPI; curation effort ≥ 3. |
 | **Reference genome** | `refdata-gex-GRCh38-2020-A` | 10x Genomics. |
 
-> **Replace `E-MTAB-17360` with the accession once ArrayExpress issues it.**
 
 ### Experimental design (CellPlex multiplexing)
 
