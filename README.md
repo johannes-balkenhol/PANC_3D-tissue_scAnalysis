@@ -1,5 +1,7 @@
 # PANC_3D-tissue_scAnalysis
 
+[![DOI](https://zenodo.org/badge/1295311731.svg)](https://doi.org/10.5281/zenodo.21353935)
+
 Single-cell RNA-seq analysis pipeline for a **3D PANC-1 pancreatic tumour tissue model**, from raw sequencing through trajectory-coupled dynamic network topology to cross-validation in a 726,107-cell patient atlas.
 
 This repository contains the complete, ordered analysis code for:
@@ -47,14 +49,14 @@ Notebooks are numbered in **execution order**. Each stage consumes the output of
 
 | Resource | Location | Notes |
 |---|---|---|
-| **Raw sequencing data** (FASTQ) | ArrayExpress **E-MTAB-XXXXX** | Two libraries deposited as `mixed/pooled` samples: gene-expression (GEX) and CellPlex (CP). |
-| **Processed AnnData** | ArrayExpress **E-MTAB-XXXXX** (processed file) | `PANC3D_PANC-1_3D-SISmuc_scRNAseq_processed.h5ad` — the object underlying every figure. |
-| **Barcode → sample mapping** | ArrayExpress **E-MTAB-XXXXX** (processed file) | `PANC3D_barcode_to_sample_mapping.tsv` — required because the libraries are CellPlex-multiplexed; assigns each cell barcode to its biological sample. |
+| **Raw sequencing data** (FASTQ) | ArrayExpress **E-MTAB-17360** | Two libraries deposited as `mixed/pooled` samples: gene-expression (GEX) and CellPlex (CP). |
+| **Processed AnnData** | ArrayExpress **E-MTAB-17360** (processed file) | `PANC3D_PANC-1_3D-SISmuc_scRNAseq_processed.h5ad` — the object underlying every figure. |
+| **Barcode → sample mapping** | ArrayExpress **E-MTAB-17360** (processed file) | `PANC3D_barcode_to_sample_mapping.tsv` — required because the libraries are CellPlex-multiplexed; assigns each cell barcode to its biological sample. |
 | **Patient atlas (external)** | Zenodo [10.5281/zenodo.14199536](https://doi.org/10.5281/zenodo.14199536) | Loveless & Steele, *Single Cell RNAseq Pancreatic Cancer Atlas*. |
 | **Interactome** | [OmniPath](https://omnipathdb.org/) | Directed, signed PPI; curation effort ≥ 3. |
 | **Reference genome** | `refdata-gex-GRCh38-2020-A` | 10x Genomics. |
 
-> **Replace `E-MTAB-XXXXX` with the accession once ArrayExpress issues it.**
+> **Replace `E-MTAB-17360` with the accession once ArrayExpress issues it.**
 
 ### Experimental design (CellPlex multiplexing)
 
@@ -130,7 +132,7 @@ If you use this code, please cite the manuscript:
 }
 ```
 
-Please also cite the data deposit (**E-MTAB-XXXXX**) and, where relevant, the upstream resources (OmniPath; Loveless *et al.* atlas).
+Please also cite the data deposit (**E-MTAB-17360**) and, where relevant, the upstream resources (OmniPath; Loveless *et al.* atlas).
 
 ---
 
