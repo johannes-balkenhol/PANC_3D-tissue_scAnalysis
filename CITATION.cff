@@ -1,5 +1,6 @@
 cff-version: 1.2.0
 title: PANC_3D-tissue_scAnalysis
+doi: 10.5281/zenodo.21353935
 message: >-
   If you use this software, please cite both the software and the
   associated manuscript.
